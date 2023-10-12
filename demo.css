@@ -1,0 +1,27 @@
+/* Apply background color to the parent div */
+.parent {
+    background-color: yellow;
+    /* Optionally, you can add some padding */
+    padding: 20px;
+    /* Use CSS Grid for the layout */
+    display: grid;
+    grid-template-columns: auto auto; /* Let the columns size automatically */
+    grid-gap: 10px; 
+}
+
+/* Apply background color to the first child div */
+.ch1 {
+    background-color: red;
+    /* Optionally, you can add some padding */
+    padding: 20px;
+}
+
+/* Apply background color to the second child div */
+.ch2 {
+    background-color: green;
+    /* Optionally, you can add some padding */
+    padding: 20px;
+    background-image: url('education.jpg');
+    background-size: cover;
+    
+}
