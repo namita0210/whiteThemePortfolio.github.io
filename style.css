@@ -4,16 +4,6 @@
     box-sizing: border-box; /* border will be counted inside the box */
     color: black;
 }
-/*Navbar---------------------------------------------------------------------------------------------------*/
-.navbar{
-    height: 60px;
-    /* background-color: #0f1111; */
-    background-color: #222f3d;
-    color : white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 a{
     text-decoration: none;
@@ -21,23 +11,6 @@ a{
     justify-content: space-evenly;
 }
 
-.border:hover{
-    border: 1.5px solid white;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%; /* Fill the entire width of the navbar */
-    padding: 0;
-}
-
-.nav-list li {
-    flex-grow: 1; /* Distribute available space evenly */
-    text-align: center;
-}
-/*Navbar End---------------------------------------------------------------------------------------------------*/
 
 /*Hero Section-------------------------------------------------------------------------------------------------*/
 .hero-section{
@@ -86,143 +59,6 @@ h2{
     color: black;
 }
 /*Hero Section End----------------------------------------------------------------------------------------------*/
-
-/*Content Section Start----------------------------------------------------------------------------------------*/
-.content{
-    background-color: white; /*rgb(107, 147, 148)*/
-    display: flex;
-}
-
-.box1{
-    background-color:rgba(128, 128, 128, 0.6);
-    flex: 70%;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    border-radius: 10px 0 0 10px;
-}
-.box2{
-    flex: 30%;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-.box-heading h2{
-    text-align: center;
-}
-
-.box-para p{
-    text-align: center;
-    font-size: medium;
-}
-
-.img-box2{
-    background-color: white;
-    background-image: url('about_me.jpg');
-    /* border: 2px solid aqua; */
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.box-para ol{    
-    text-align:center;
-    font-size: medium;
-}
-
-.img2-box2{
-    background-color: white;
-    background-image: url('work_experience.jpeg');
-    /* border: 2px solid aqua; */
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-button{
-    /* background-color: rgb(243, 144, 6); */
-    margin: 10px; /* Add spacing between buttons if desired */
-    padding: 5px 10px; /* Adjust padding as needed */
-    background-color: rgb(128, 114, 114); /* Button background color */
-    color: #fff; /* Button text color */
-    border: none; /* Remove button border */
-    cursor: pointer; /* Add cursor pointer on hover */
-}
-
-.box-button{
-    background-color: #222f3d;
-    /* align-items: center; */
-    text-align: center;
-}
-
-button:hover{
-    background-color: azure;
-    color: black;
-}
-
-.box-button a:hover{
-    background-color: azure;
-    color: black;
-}
-
-
-.img3-box2{
-    background-color: white;
-    background-image: url('skills.png');
-    
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.img4-box2{
-    background-color: white;
-    background-image: url('education.jpg');
-    
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.img5-box2{
-    background-color: white;
-    background-image: url('projects.png');
-    
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.img6-box2{
-    background-color: white;
-    background-image: url('certifications.png');
-    
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-
-
-/*Footer Start========================================================================================*/
-.foot{
-    background-color: #222f3d;
-    color: white;
-    text-align: center;
-}
 
 
 
